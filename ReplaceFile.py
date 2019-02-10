@@ -26,7 +26,7 @@ class Gui():
         os.startfile('ReadMe.txt')
 
     def get_about(self):
-        messagebox.showinfo("About", "ReplaceFile © 2018. Author: VFeschenko@lotus.asb.by (Telegram: @windx13)")
+        messagebox.showinfo("About", "ReplaceFile © 2018")
 
     def press_start(self):
         self.task_thread = threading.Thread(target=self.start_thread)
